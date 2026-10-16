@@ -1,0 +1,17 @@
+{
+  "mode": "live",
+  "tokenEnvVar": "BRIEF_BOT_TOKEN",
+  "pilotChatId": "",
+  "liveChatId": "",
+  "maxItems": 4,
+  "minItems": 0,
+  "freshnessHours": 36,
+  "minSources": 2,
+  "allowSingleOfficialSource": true,
+  "timezone": "Asia/Kolkata",
+  "sendTimeLocal": "06:00",
+  "sendQuietDayNote": true,
+  "quietDayMessage": "No post-worthy news today.",
+  "language": "English",
+  "_notes": "setup.py copies this to config.json (which is git-ignored). mode=live sends to liveChatId; mode=pilot sends to pilotChatId. The bot token is never stored in any file - it lives in the environment variable named by tokenEnvVar."
+}

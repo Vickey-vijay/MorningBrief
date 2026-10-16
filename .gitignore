@@ -1,0 +1,7 @@
+# Machine-specific / private - never commit
+config.json
+state.json
+log/*
+!log/.gitkeep
+__pycache__/
+*.pyc
